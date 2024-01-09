@@ -16,7 +16,7 @@ public class GreaterThanOrLessThanController : ControllerBase
 
     [HttpGet]
     [Route("EnterTwoNumbers/{firstNumber}/{secondNumber}")]
-    public string GreaterOrLess(double firstNumber, double secondNumber){
+    public string GreaterOrLess(string firstNumber, string secondNumber){
         return _greaterThanOrLessThan.GreaterOrLess(firstNumber, secondNumber);
     }
 }
