@@ -5,7 +5,6 @@ public class GreaterThanOrLessThan : IGreaterThanOrLessThan
     public string GreaterOrLess(string numOne, string numTwo)
     {
 
-
             if (double.TryParse(numOne, out double num) && double.TryParse(numTwo, out double num2))
             {
                 if (num > num2)
@@ -24,8 +23,6 @@ public class GreaterThanOrLessThan : IGreaterThanOrLessThan
                 return "Error, you need to enter in numbers for both parameters.";
             }
         
-
-
     }
 
 
