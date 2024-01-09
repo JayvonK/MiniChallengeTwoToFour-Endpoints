@@ -21,7 +21,7 @@ public class GreaterThanOrLessThan : IGreaterThanOrLessThan
                     return $"The first number: {numOne}, is equal to the second number: {numTwo}. \nThe second number: {numTwo}, is equal to the first number: {numOne}.";
                 }
             } else {
-                return "Error, you need to enter in a numbers for both parameters.";
+                return "Error, you need to enter in numbers for both parameters.";
             }
         
 
