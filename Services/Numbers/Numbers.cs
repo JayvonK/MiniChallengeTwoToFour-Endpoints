@@ -9,6 +9,5 @@ public class Numbers : INumbers
         } else {
             return "Error, please enter in numbers for both parameters.";
         }
-        
     }
 }
